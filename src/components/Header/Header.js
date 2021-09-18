@@ -5,7 +5,7 @@ export default function Header() {
         <header>
             <div className="logo">
                 <a href="#">
-                    <img src="logo.png" width="80px" height="80px" alt="logo"/>
+                    <img src="../Header/img/logo.png" width="80px" height="80px" alt="logo"/>
                     </a>
             </div>
             <div className="menu">
@@ -19,9 +19,9 @@ export default function Header() {
                     <li><a href="#Контакты">Контакты</a></li>
                 </ul>
             </div>
-            <div className="tel">
-                <a href="tel:803005000">80300 5000</a>
-            </div>
+            <button>ABOUT</button>
+            <button>MY BOOKING</button>
+            <button>SING IN</button>
         </header>
 );
 }

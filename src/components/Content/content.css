@@ -1,7 +1,16 @@
+.container {
+    background-color: darkgrey;
+    margin: 10px 20px 20px 20px;
+    padding: 5px;
+}
+
 .booking {
     color: pink;
 }
 
 p.text {
     line-height: 1.5;
+}
+.button1 {
+    background-color: pink;
 }
