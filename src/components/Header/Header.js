@@ -1,7 +1,8 @@
+import React, {useState} from 'react';
 import './header.css'
 
 export default function Header() {
-    return (
+        return (
         <header>
             <div className="logo">
                 <a href="#">
@@ -21,7 +22,19 @@ export default function Header() {
             </div>
             <button>ABOUT</button>
             <button>MY BOOKING</button>
-            <button>SING IN</button>
+            <button>SIGN IN</button>
         </header>
 );
 }
+const App = function () {
+    const [isLoggin, setIsLoggin] = useState(false);
+
+    const onClick = () => {
+      setIsLoggin(true)
+    };
+    return <>
+        <Header isLoggin={isLoggin} />
+        <button onClick={onClick}>SIGN IN</button>
+    </>
+}
+

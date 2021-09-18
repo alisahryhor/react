@@ -3,7 +3,7 @@ import ReactDom from "react-dom";
 import MainPage from "../src/pages/main";
 
 function App() {
-    return (
+        return (
         <div>
             <MainPage />
         </div>
