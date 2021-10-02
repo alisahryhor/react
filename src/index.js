@@ -2,18 +2,7 @@ import React from "react"
 import ReactDom from "react-dom";
 import MainPage from "../src/pages/main";
 import SecondMain from "./pages/SecondMain";
-import {Router, Switch, Route, Link} from "react-router-dom";
-
-
-/*function App() {
-        return (
-        <div>
-            <MainPage />
-
-        </div>
-    )
-}*/
-
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 
 ReactDom.render(
     <React.StrictMode>

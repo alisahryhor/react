@@ -17,6 +17,5 @@ export default function Forms() {
             </label>
             <button type="submit">Отправить</button>
         </form>
-
     )
 }
