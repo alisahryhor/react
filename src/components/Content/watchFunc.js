@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 
 export default function WatchFunc(props) {
     const {date} = props;
-    const [stateDate, setStateDate] = useState(new Date());
+    const [stateDate, setStateDate] = useState(date);
     const timerClock = setInterval( () => setStateDate(new Date()));
 
     useEffect(() => {

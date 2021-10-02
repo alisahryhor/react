@@ -1,18 +1,21 @@
 import React from "react";
 
-export default function Textarea() {
+export default function Forms() {
     return (
         <form>
             <label>
-                Last Name:
-                <input id={lastname} type={text}/>
-                <select>
+                Color:
+                <input type="text" />
+                <select value="blue">
                     <option value="orange">orange</option>
                     <option value="pink">pink</option>
                     <option value="blue">blue</option>
                     <option value="red">red</option>
                 </select>
+                <input type="checkbox"/>
+                checked={true}
             </label>
+            <button type="submit">Отправить</button>
         </form>
 
     )

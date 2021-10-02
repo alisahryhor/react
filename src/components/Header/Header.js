@@ -1,11 +1,11 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './header.css'
 
 export default function Header() {
         return (
         <header>
             <div className="logo">
-                <a href="#">
+                <a href="https://walldeco.ua/img/gallery/126/thumbs/thumb_m_25845.jpg">
                     <img src="../Header/img/logo.png" width="80px" height="80px" alt="logo"/>
                     </a>
             </div>
@@ -25,8 +25,8 @@ export default function Header() {
             <button>SIGN IN</button>
         </header>
 );
-}
-const App = function () {
+
+/*const App = function () {
     const [isLoggin, setIsLoggin] = useState(false);
 
     const onClick = () => {
@@ -35,6 +35,6 @@ const App = function () {
     return <>
         <Header isLoggin={isLoggin} />
         <button onClick={onClick}>SIGN IN</button>
-    </>
+    </>*/
 }
 
